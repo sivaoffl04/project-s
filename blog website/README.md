@@ -18,8 +18,20 @@ A full-featured blog application built with **Django** and styled using **Bootst
 - Database: SQLite (default with Django)
 - Language: Python 3
 
-## 📷 Screenshots
-
-> *(Add screenshots here if available, e.g. post list page, post detail with image, form page, etc.)*
-
 ## 📁 Project Setup
+Create a virtual environment & activate it ->
+python -m venv venv ->
+source venv/bin/activate (or)  # Windows: venv\Scripts\activate
+
+Install dependencies:->
+pip install -r requirements.txt
+
+Apply migrations:->
+python manage.py makemigrations ->
+python manage.py migrate
+
+Run the development server
+python manage.py runserver
+
+Open in your browser
+http://127.0.0.1:8000/
